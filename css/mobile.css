@@ -1,0 +1,31 @@
+@media only screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+  #about .flex-items {
+    flex-direction: column;
+  }
+  .solutions .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cases .row {
+    flex-direction: column;
+  }
+  .flex-grid .column {
+    max-width: 100%;
+  }
+
+  #blog .row {
+    flex-direction: column;
+  }
+
+  #team .flex-items {
+    flex-direction: column;
+  }
+
+  #contact .row {
+    flex-direction: column;
+  }
+}
